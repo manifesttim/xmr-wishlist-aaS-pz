@@ -14,8 +14,8 @@ from monerorpc.authproxy import AuthServiceProxy, JSONRPCException
 cryptocompare.cryptocompare._set_api_key_parameter("-")
 
 
-git_username = "mj-xmr"
-repo_name =  "wishlist-mj"
+git_username = "manifesttim"
+repo_name =  "wishlist-pz"
 repo_dir = "json"
 qrcode_dir = "qr_codes"
 git_token = "" # Optional
@@ -131,7 +131,7 @@ def wishlist_add_new(args, goal,desc,address,w_type):
     test = getPrice("XMR",float(percent_buffer))
     #print(f"test = {test}")
     xmrgoal = goal / getPrice("XMR",float(percent_buffer))
-    
+    print(desc, " = ", xmrgoal)
 
     #Connect and generate a new sub address for our wish
     if not address:
@@ -272,7 +272,8 @@ def create_new_wishlist(args):
     #-------------------------------------------------------------
     #wishlist_add_new(500,"Do something for the community",None,"work")
     #wishlist_add_new(5,"buy me a coffee (mdevs)","87UF7BP47y8Zins3C7ZHDWcUSgZBchtebguCaeRQiofyFT5L9PLhZ55EMC8e4WSHaLUzGYj5w5St2jQngCeHikaa4E36Dmv","gift")
-    wishlist_add_new(args, 5,"buy me a coffee",'84N46mxVLM77YaqqMBzVe9cAN4ChBDjsXCvi9UtPVxdCeVeMfrJJM2kYv5ctp6V5taJUmRvhFWixfZ8iR2UySaRrDQgBPz7',"gift")
+    wishlist_add_new(args, 1570,"Completed translations (1 month)",None,"Introduction (done)")
+    wishlist_add_new(args, 6123,"Further translations (3 months)",None,"Regular work (TBD)")
     #-------------------------------------------------------------
     
     thetime = datetime.now()
