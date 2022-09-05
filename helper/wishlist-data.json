@@ -1,0 +1,47 @@
+{
+    "wishlist": [
+        {
+            "goal": 10.56534700771876,
+            "total": 0,
+            "contributors": 0,
+            "address": "89T4QsP349dBsSMK6574k87n8n9ZxcujtKu4hSHK3kWyV3NDuXJ851eBn77e9cx3qE9U6dLRLYjMyXEmBxoH6v6U8YHTjow",
+            "description": "Completed translations (1 month)",
+            "percent": 0,
+            "type": "Introduction (done)",
+            "created_date": "2022-09-05 14:27:00.751957",
+            "modified_date": "2022-09-05 14:27:00.751972",
+            "author_name": "",
+            "author_email": "",
+            "id": "89T4QsP349dB",
+            "qr_img_url": "https://raw.githubusercontent.com/manifesttim/wishlist-pz/main/qr_codes/89T4QsP349dB.png",
+            "title": ""
+        },
+        {
+            "goal": 41.20485333010317,
+            "total": 0,
+            "contributors": 0,
+            "address": "8AoNo7yZtzA4wqF5zzxsdNUWsRstjcxL1CfdzRs7SdiTUCStmJ25iDz7TT3cGtVPG5B78QVRYHV4iQFTBYTJ5t3B7XQdgDX",
+            "description": "Further translations (3 months)",
+            "percent": 0,
+            "type": "Regular work (TBD)",
+            "created_date": "2022-09-05 14:27:00.941057",
+            "modified_date": "2022-09-05 14:27:00.941077",
+            "author_name": "",
+            "author_email": "",
+            "id": "8AoNo7yZtzA4",
+            "qr_img_url": "https://raw.githubusercontent.com/manifesttim/wishlist-pz/main/qr_codes/8AoNo7yZtzA4.png",
+            "title": ""
+        }
+    ],
+    "metadata": {
+        "total": 0,
+        "contributors": 0,
+        "modified": "2022-09-05 14:27:00.975746",
+        "title": "",
+        "description": "",
+        "image": "",
+        "url": "",
+        "viewkey": "051b61127e35e8b539c070330443f431360edcc54089ee4b5f00f3b89e84270b",
+        "main_address": "43yXPq28puShLkFcRgZ3kBXA2f7pmQFuweWDjt1GcKmuG5v9vRFUb81V3q8jwghxFg5bVRASKc4YedRmd3GJ9rxkBpdkGDM"
+    }
+}
