@@ -35,7 +35,7 @@ def get_args():
     parser.add_argument('-u',  '--username',  default=rpc_user_default, type=str, help="RPC username shared via file in the working directory like: 'monero-wallet-rpc.18086.login'")
     parser.add_argument('-ps', '--password',       default='', type=str, help="RPC password shared via file in the working directory like: 'monero-wallet-rpc.18086.login'")
     parser.add_argument('-pf', '--password-file',  default='', type=str, help="RPC password file in the working directory like: 'monero-wallet-rpc.18086.login'")
-    parser.add_argument('-p',  '--port',           default=18086, type=int, help="RPC wallet's port'")
+    parser.add_argument('-p',  '--port',           default='18086', type=str, help="RPC wallet's port'")
     parser.add_argument('-ho', '--host',           default='localhost', type=str, help="RPC wallet's hostname'")
 
     return parser.parse_args()
