@@ -22,7 +22,7 @@ git_token = "" # Optional
 rpc_user_default = 'monero'
 prc_pass = 'mTC78KRoTzRm21amFYXoWA==|'
 node_url_tpl =  'http://{0}:{1}@{2}:{3}/json_rpc'
-json_url = f"https://raw.githubusercontent.com/{git_username}/{repo_name}/main/{repo_dir}/wishlist-data.json"
+json_url = f"https://raw.githubusercontent.com/{git_username}/{repo_name}/master/{repo_dir}/wishlist-data.json"
 viewkey = "051b61127e35e8b539c070330443f431360edcc54089ee4b5f00f3b89e84270b"
 main_address = "43yXPq28puShLkFcRgZ3kBXA2f7pmQFuweWDjt1GcKmuG5v9vRFUb81V3q8jwghxFg5bVRASKc4YedRmd3GJ9rxkBpdkGDM"
 percent_buffer = 0.05
@@ -272,8 +272,8 @@ def create_new_wishlist(args):
     #-------------------------------------------------------------
     #wishlist_add_new(500,"Do something for the community",None,"work")
     #wishlist_add_new(5,"buy me a coffee (mdevs)","87UF7BP47y8Zins3C7ZHDWcUSgZBchtebguCaeRQiofyFT5L9PLhZ55EMC8e4WSHaLUzGYj5w5St2jQngCeHikaa4E36Dmv","gift")
-    wishlist_add_new(args, 1570,"Completed translations (1 month)",None,"Introduction (done)")
-    wishlist_add_new(args, 6123,"Further translations (3 months)",None,"Regular work (TBD)")
+    wishlist_add_new(args, 1570,"Completed translations (1 month)","89T4QsP349dBsSMK6574k87n8n9ZxcujtKu4hSHK3kWyV3NDuXJ851eBn77e9cx3qE9U6dLRLYjMyXEmBxoH6v6U8YHTjow","Introduction (done)")
+    wishlist_add_new(args, 6123,"Further translations (3 months)","8AoNo7yZtzA4wqF5zzxsdNUWsRstjcxL1CfdzRs7SdiTUCStmJ25iDz7TT3cGtVPG5B78QVRYHV4iQFTBYTJ5t3B7XQdgDX", "Regular work (TBD)")
     #-------------------------------------------------------------
     
     thetime = datetime.now()
