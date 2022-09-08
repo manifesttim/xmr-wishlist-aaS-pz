@@ -158,7 +158,7 @@ def wishlist_add_new(args, goal,desc,address,w_type):
                 "author_name": "",
                 "author_email": "",
                 "id": address[0:12],
-                "qr_img_url": f"https://raw.githubusercontent.com/{git_username}/{repo_name}/main/{qrcode_dir}/{address[0:12]}.png",
+                "qr_img_url": f"https://raw.githubusercontent.com/{git_username}/{repo_name}/master/{qrcode_dir}/{address[0:12]}.png",
                 "title": ""
     } 
     wishes.append(app_this)
